@@ -1,0 +1,21 @@
+2021/01/31 15:25:06 tcp.go:27: TCP tunnel :8053 <-> c50s1.jamjams.net:21971 <-> 8.8.8.8:53
+2021/01/31 15:25:06 tcp.go:16: SOCKS proxy :1080 <-> c50s1.jamjams.net:21971
+2021/01/31 15:25:06 tcp.go:27: TCP tunnel :8054 <-> c50s1.jamjams.net:21971 <-> 8.8.4.4:53
+2021/01/31 15:25:07 udp.go:49: UDP tunnel :8053 <-> c50s1.jamjams.net:21971 <-> 8.8.8.8:53
+2021/01/31 15:25:07 udp.go:49: UDP tunnel :8054 <-> c50s1.jamjams.net:21971 <-> 8.8.4.4:53
+127.0.0.1 - - [31/Jan/2021 15:26:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [31/Jan/2021 15:26:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [31/Jan/2021 15:26:14] "GET / HTTP/1.1" 200 -
+2021/01/31 15:26:22 tcp.go:85: proxy 127.0.0.1:49904 <-> c50s1.jamjams.net:21971 <-> www.bing.com:443
+2021/01/31 15:26:22 tcp.go:85: proxy 127.0.0.1:49900 <-> c50s1.jamjams.net:21971 <-> bing.com:443
+2021/01/31 15:26:23 tcp.go:85: proxy 127.0.0.1:49908 <-> c50s1.jamjams.net:21971 <-> www.bing.com:443
+2021/01/31 15:26:23 tcp.go:85: proxy 127.0.0.1:49912 <-> c50s1.jamjams.net:21971 <-> google.com:80
+2021/01/31 15:26:23 tcp.go:85: proxy 127.0.0.1:49916 <-> c50s1.jamjams.net:21971 <-> www.google.com:443
+2021/01/31 15:26:23 tcp.go:85: proxy 127.0.0.1:49914 <-> c50s1.jamjams.net:21971 <-> google.com:80
+2021/01/31 15:26:23 tcp.go:85: proxy 127.0.0.1:49924 <-> c50s1.jamjams.net:21971 <-> www.gstatic.com:443
+2021/01/31 15:26:25 tcp.go:85: proxy 127.0.0.1:49928 <-> c50s1.jamjams.net:21971 <-> adservice.google.com:443
+2021/01/31 15:26:25 tcp.go:85: proxy 127.0.0.1:49932 <-> c50s1.jamjams.net:21971 <-> apis.google.com:443
+2021/01/31 15:26:26 tcp.go:85: proxy 127.0.0.1:49940 <-> c50s1.jamjams.net:21971 <-> googleads.g.doubleclick.net:443
+2021/01/31 15:26:26 tcp.go:85: proxy 127.0.0.1:49936 <-> c50s1.jamjams.net:21971 <-> ssl.gstatic.com:443
+2021/01/31 15:26:30 tcp.go:85: proxy 127.0.0.1:49944 <-> c50s1.jamjams.net:21971 <-> play.google.com:443
+2021/01/31 15:26:34 tcp.go:85: proxy 127.0.0.1:49948 <-> c50s1.jamjams.net:21971 <-> clients1.google.com:443
